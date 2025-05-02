@@ -78,7 +78,7 @@ export default function Home() {
             </li>
           ))
         ) : (
-          <li className="text-center">No users found</li>
+          <li className="text-center">No users exist</li>
         ) }
       </ul>
     </div>
