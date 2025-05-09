@@ -67,7 +67,7 @@ export default function Home() {
         >Add User</button>
       </form>
       <ul className="mt-6 bg-white p-6 rounded-lg shadow-md w-96">
-        <h3 className="text-center font-bold">Below is the List of Users</h3>
+        <h3 className="text-center font-bold">Below is the List of Users change</h3>
         { Array.isArray(users) && users.length > 0 ? (
           users.map( (user) => (
             <li
